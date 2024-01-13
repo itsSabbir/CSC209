@@ -1,0 +1,154 @@
+Script started on Fri Oct 20 17:36:01 2023
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            [0m[27m[24m[Jsabbirhossain@Sabbirs-MBP lab6 % [K[?2004hggdb overflow[?2004l
+zsh: command not found: gdb
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            [0m[27m[24m[Jsabbirhossain@Sabbirs-MBP lab6 % [K[?2004hllldb overflow[?2004l
+(lldb) target create "overflow"
+[2mLocating external symbol file for overflow...[0m[K[2K[2mLoading Apple DWARF index for overflow...[0m[K[2K[2mLocating external symbol file for dyld...[0m[K[2K[2mParsing symbol table for dyld...[0m[K[2K[2mLocating external symbol file for libSystem.B.dylib...[0m[K[2K[2mParsing symbol table for libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file for libcache.dylib...[0m[K[2K[2mParsing symbol table for libcache.dylib...[0m[K[2K[2mLocating external symbol file for libcommonCrypto.dylib...[0m[K[2K[2mParsing symbol table for libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file for libcompiler_rt.dylib...[0m[K[2K[2mParsing symbol table for libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file for libcopyfile.dylib...[0m[K[2K[2mParsing symbol table for libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file for libcorecrypto.dylib...[0m[K[2K[2mParsing symbol table for libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file for libdispatch.dylib...[0m[K[2K[2mParsing symbol table for libdispatch.dylib...[0m[K[2K[2mLocating external symbol file for libdyld.dylib...[0m[K[2K[2mParsing symbol table for libdyld.dylib...[0m[K[2K[2mLocating external symbol file for libkeymgr.dylib...[0m[K[2K[2mParsing symbol table for libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file for libmacho.dylib...[0m[K[2K[2mParsing symbol table for libmacho.dylib...[0m[K[2K[2mLocating external symbol file for libquarantine.dylib...[0m[K[2K[2mParsing symbol table for libquarantine.dylib...[0m[K[2K[2mLocating external symbol file for libremovefile.dylib...[0m[K[2K[2mParsing symbol table for libremovefile.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_asl.dylib...[0m[K[2K[2mParsing symbol table for libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_blocks.dylib...[0m[K[2K[2mParsing symbol table for libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_c.dylib...[0m[K[2K[2mParsing symbol table for libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_collections.dylib...[0m[K[2K[2mParsing symbol table for libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_configuration.dylib...[0m[K[2K[2mParsing symbol table for libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_containermanager.dylib...[0m[K[2K[2mParsing symbol table for libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_coreservices.dylib...[0m[K[2K[2mParsing symbol table for libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_darwin.dylib...[0m[K[2K[2mParsing symbol table for libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_darwindirectory.dylib...[0m[K[2K[2mParsing symbol table for libsystem_darwindirectory.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_dnssd.dylib...[0m[K[2K[2mParsing symbol table for libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_featureflags.dylib...[0m[K[2K[2mParsing symbol table for libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_info.dylib...[0m[K[2K[2mParsing symbol table for libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_m.dylib...[0m[K[2K[2mParsing symbol table for libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_malloc.dylib...[0m[K[2K[2mParsing symbol table for libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_networkextension.dylib...[0m[K[2K[2mParsing symbol table for libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_notify.dylib...[0m[K[2K[2mParsing symbol table for libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_sandbox.dylib...[0m[K[2K[2mParsing symbol table for libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_secinit.dylib...[0m[K[2K[2mParsing symbol table for libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_kernel.dylib...[0m[K[2K[2mParsing symbol table for libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_platform.dylib...[0m[K[2K[2mParsing symbol table for libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_pthread.dylib...[0m[K[2K[2mParsing symbol table for libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_symptoms.dylib...[0m[K[2K[2mParsing symbol table for libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file for libsystem_trace.dylib...[0m[K[2K[2mParsing symbol table for libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file for libunwind.dylib...[0m[K[2K[2mParsing symbol table for libunwind.dylib...[0m[K[2K[2mLocating external symbol file for libxpc.dylib...[0m[K[2K[2mParsing symbol table for libxpc.dylib...[0m[K[2K[2mLocating external symbol file for libobjc.A.dylib...[0m[K[2K[2mParsing symbol table for libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file for libc++abi.dylib...[0m[K[2K[2mParsing symbol table for libc++abi.dylib...[0m[K[2K[2mLocating external symbol file for liboah.dylib...[0m[K[2K[2mParsing symbol table for liboah.dylib...[0m[K[2K[2mLocating external symbol file for libc++.1.dylib...[0m[K[2K[2mParsing symbol table for libc++.1.dylib...[0m[K[2K[2mParsing symbol table for overflow...[0m[K[2KCurrent executable set to '/Users/sabbirhossain/Desktop/CSC Courses/hossa222/lab6/overflow' (arm64).
+(lldb) [1G[2m(lldb) [0m[8Glist 1,10
+[0;1;31merror: [0mCould not find function named: "1,10".
+(lldb) [1G[2m(lldb) [0m[8Glist 1,10[1G[2m(lldb) [0m[17G[K[1G[2m(lldb) [0m[16G[K[1G[2m(lldb) [0m[15G[K[1G[2m(lldb) [0m[14G[K[1G[2m(lldb) [0m[13G10
+[33m  [0m 10  	    [32mint[0m a[SIZE] = {[31m0[0m, [31m0[0m, [31m0[0m, [31m0[0m};
+[33m  [0m 11  	    [32mint[0m after[SIZE] = {[31m10[0m, [31m10[0m, [31m10[0m, [31m10[0m};
+[33m  [0m 12  	
+[33m  [0m 13  	    printf("Address of the variables:\n");
+[33m  [0m 14  	    [32mfor[0m (index = [31m0[0m; index < SIZE; index++) {
+[33m  [0m 15  	        printf("%lx -> &after[%d]\n", ([32munsigned[0m [32mlong[0m) &after[index], index);
+[33m  [0m 16  	    }
+[33m  [0m 17  	    [32mfor[0m (index = [31m0[0m; index < SIZE; index++) {
+[33m  [0m 18  	        printf("%lx -> &a[%d]\n", ([32munsigned[0m [32mlong[0m) &a[index], index);
+[33m  [0m 19  	    }
+(lldb) [1G[2m(lldb) [0m[8Glist 1
+[33m  [0m 1   	#include <stdio.h>
+[33m  [0m 2   	
+[33m  [0m 3   	#define SIZE 4
+[33m  [0m 4   	#define OVERFLOW 4
+[33m  [0m 5   	
+[33m  [0m 6   	[32mint[0m main() {
+[33m  [0m 7   	    [32mint[0m index = [31m0[0m;
+[33m  [0m 8   	    [32mint[0m i;
+[33m  [0m 9   	    [32mint[0m before[SIZE] = {[31m10[0m, [31m10[0m, [31m10[0m, [31m10[0m};
+[33m  [0m 10  	    [32mint[0m a[SIZE] = {[31m0[0m, [31m0[0m, [31m0[0m, [31m0[0m};
+(lldb) [1G[2m(lldb) [0m[8Gbreak main
+invalid command 'breakpoint main'.
+(lldb) [1G[2m(lldb) [0m[8Gb main
+Breakpoint 1: where = overflow`main + 32 at overflow.c:7:9, address = 0x0000000100003ae4
+(lldb) [1G[2m(lldb) [0m[8Gl 1,10
+[0;1;31merror: [0mCould not find function named: "1,10".
+(lldb) [1G[2m(lldb) [0m[8Gr
+Process 11487 launched: '/Users/sabbirhossain/Desktop/CSC Courses/hossa222/lab6/overflow' (arm64)
+Process 11487 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.1[0m
+    frame #0: [33m0x0000000100003ae4[0m overflow`main at [36moverflow.c[0m:[33m7[0m:[33m9[0m
+[33m  [0m 4   	#define OVERFLOW 4
+[33m  [0m 5   	
+[33m  [0m 6   	[32mint[0m main() {
+[33m->[0m 7   	    [32mint[0m [4mindex[0m = [31m0[0m;
+[33m  [0m 8   	    [32mint[0m i;
+[33m  [0m 9   	    [32mint[0m before[SIZE] = {[31m10[0m, [31m10[0m, [31m10[0m, [31m10[0m};
+[33m  [0m 10  	    [32mint[0m a[SIZE] = {[31m0[0m, [31m0[0m, [31m0[0m, [31m0[0m};
+Target 0: (overflow) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 11487 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003af0[0m overflow`main at [36moverflow.c[0m:[33m9[0m:[33m9[0m
+[33m  [0m 6   	[32mint[0m main() {
+[33m  [0m 7   	    [32mint[0m index = [31m0[0m;
+[33m  [0m 8   	    [32mint[0m i;
+[33m->[0m 9   	    [32mint[0m [4mbefore[0m[SIZE] = {[31m10[0m, [31m10[0m, [31m10[0m, [31m10[0m};
+[33m  [0m 10  	    [32mint[0m a[SIZE] = {[31m0[0m, [31m0[0m, [31m0[0m, [31m0[0m};
+[33m  [0m 11  	    [32mint[0m after[SIZE] = {[31m10[0m, [31m10[0m, [31m10[0m, [31m10[0m};
+[33m  [0m 12  	
+Target 0: (overflow) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gp after[0]
+(int) $0 = 4266256
+(lldb) [1G[2m(lldb) [0m[8Gp a[4]
+(int) $1 = 1876947536
+(lldb) [1G[2m(lldb) [0m[8Gdisplay [[K[1G[2m(lldb) [0m[16Ga[0][K[1G[2m(lldb) [0m[19G[K[1G[2m(lldb) [0m[18G4]
+Stop hook #1 added.
+(lldb) [1G[2m(lldb) [0m[8Gd a[4]
+[0;1;31merror: [0m'disassemble' doesn't take any arguments.
+(lldb) [1G[2m(lldb) [0m[8Gdisplay after[0]
+Stop hook #2 added.
+(lldb) [1G[2m(lldb) [0m[8Gcontinue
+Process 11487 resuming
+Address of the variables:
+16fdff210 -> &after[0]
+16fdff214 -> &after[1]
+16fdff218 -> &after[2]
+16fdff21c -> &after[3]
+16fdff220 -> &a[0]
+16fdff224 -> &a[1]
+16fdff228 -> &a[2]
+16fdff22c -> &a[3]
+16fdff230 -> &before[0]
+16fdff234 -> &before[1]
+16fdff238 -> &before[2]
+16fdff23c -> &before[3]
+16fdff204 -> &i
+16fdff208 -> &index
+
+Initial values:
+i = 1
+before = {10, 10, 10, 10}
+a = {0, 0, 0, 0}
+after = {10, 10, 10, 10}
+
+i = 0
+before = {10, 10, 10, 10}
+a = {0, 0, 0, 0}
+after = {10, 10, 10, 10}
+i = 1
+before = {10, 10, 10, 10}
+a = {0, 10, 0, 0}
+after = {10, 10, 10, 10}
+i = 2
+before = {10, 10, 10, 10}
+a = {0, 10, 20, 0}
+after = {10, 10, 10, 10}
+i = 3
+before = {10, 10, 10, 10}
+a = {0, 10, 20, 30}
+after = {10, 10, 10, 10}
+Process 11487 exited with status = 0 (0x00000000) 
+(lldb) [1G[2m(lldb) [0m[8Gprint &a[4]
+error: Can't make a function caller while the process is running
+(lldb) [1G[2m(lldb) [0m[8Gprint &a[4][1G[2m(lldb) [0m[19G[P [1G[2m(lldb) [0m[12G[P [1G[2m(lldb) [0m[11G[P [1G[2m(lldb) [0m[10G[P [1G[2m(lldb) [0m[9G
+error: Can't make a function caller while the process is running
+(lldb) [1G[2m(lldb) [0m[8Gprint &(atfer
+error: Can't make a function caller while the process is running
+(lldb) [1G[2m(lldb) [0m[8G[[K[1G[2m(lldb) [0m[8Gprint &(atfer[1G[2m(lldb) [0m[21G([K[1G[2m(lldb) [0m[21G[0])
+error: Can't make a function caller while the process is running
+(lldb) [1G[2m(lldb) [0m[8Gquit
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            [0m[27m[24m[Jsabbirhossain@Sabbirs-MBP lab6 % [K[?2004hggit add gb db_exmaple.txt[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            [0m[27m[24m[Jsabbirhossain@Sabbirs-MBP lab6 % [K[?2004hggit commit -m "exmaple file for lldb debugger because on max c"[?2004l
+[master 4abd8ee] exmaple file for lldb debugger because on mac
+ Committer: Sabbir Hossain <sabbirhossain@sabbirs-mbp.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 122 insertions(+)
+ create mode 100644 lab6/gdb_exmaple.txt
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            [0m[27m[24m[Jsabbirhossain@Sabbirs-MBP lab6 % [K[?2004hggit push[?2004l
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 10 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 2.29 KiB | 2.29 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: [MarkUs] Your submission has been received: master@{Fri Oct 20 17:42:16 2023}[K
+To https://markus.teach.cs.toronto.edu/git/2023-09/csc209/hossa222
+   e5af153..4abd8ee  master -> master
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            [0m[27m[24m[Jsabbirhossain@Sabbirs-MBP lab6 % [K[?2004hggit rm gdb   [7mgdb_exmaple.txt[27m[15D[27mg[27md[27mb[27m_[27me[27mx[27mm[27ma[27mp[27ml[27me[27m.[27mt[27mx[27mt[?2004l
+error: the following file has local modifications:
+    lab6/gdb_exmaple.txt
+(use --cached to keep the file, or -f to force removal)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                            [0m[27m[24m[Jsabbirhossain@Sabbirs-MBP lab6 % [K[?2004h
