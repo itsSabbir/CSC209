@@ -6,9 +6,8 @@
 Software techniques in a Unix-style environment, using scripting languages and a machine-oriented programming language (typically C). Topics include: software tools, pipes and filters, file processing, shell programming, processes, system calls, signals, basic network programming.
 
 ### Instructors
-- **Demetres (dee) Kostas**
+- **Demetres (dee) Kostas PhD**
   - **Lectures**: Tuesday 2-3, Thursday 2-3
-  - **Email**: [csc209-2023-09@cs.toronto.edu](mailto:csc209-2023-09@cs.toronto.edu)
 
 ### Office Hours
 - Thurs ~3:00-4:00 (BA 2272) -- available after the lecture. Meet for office hours in BA2272 approximately 10 minutes after 3.
