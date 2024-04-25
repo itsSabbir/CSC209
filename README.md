@@ -27,7 +27,7 @@ Course handouts, assignments, marks, and important information will be posted on
 ---
 
 ## Lab Grades
-- Lab 1: 86/1
+- Lab 1: .86/1
 - Lab 2: 3.67/4
 - Lab 3: 2/2
 - Lab 4: 4/4
