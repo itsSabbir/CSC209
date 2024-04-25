@@ -45,3 +45,6 @@ The average grade, calculated as a percentage, for the labs is approximately 88.
 - A1: 100%
 - A2: 91.07%
 - A4: 97.73%
+
+## Final Course Grade
+- 83 Post exam
